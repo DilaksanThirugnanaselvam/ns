@@ -129,9 +129,9 @@ st.title("🎓 Scholarship News Updates")
 st.markdown("Get AI-generated scholarship news updates, categorized and enhanced with engaging emojis!")
 
 # Schedule the job to run at 8 AM, 1 PM, and 6 PM every day
-schedule.every().day.at("02:35").do(job)
-schedule.every().day.at("02:40").do(job)
-schedule.every().day.at("02:42").do(job)
+schedule.every().day.at("02:50").do(job)
+schedule.every().day.at("02:52").do(job)
+schedule.every().day.at("02:55").do(job)
 
 # Streamlit app loop (to run the job continuously)
 while True:
